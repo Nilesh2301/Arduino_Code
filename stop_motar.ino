@@ -1,0 +1,24 @@
+int in1=3;
+int in2=4;
+int en=5;
+
+void setup(){
+  pinMode(in1,OUTPUT);
+  pinMode(in2,OUTPUT);
+  pinMode(en,OUTPUT);
+
+}
+
+void loop(){
+  digitalWrite(in1,LOW);
+  digitalWrite(in2,LOW);
+  analogWrite(en,0);
+}void setup() {
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}
